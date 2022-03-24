@@ -1,7 +1,7 @@
-window.onload = function () {
+window.onload = () => {
     var minute = 5;
     var sec = 60;
-    setInterval(function () {
+    setInterval(() => {
         document.getElementById("time").innerHTML = minute + " : " + sec;
         sec--;
         if (sec == 00) {

@@ -1,4 +1,4 @@
-function factorial(n) {
+const factorial = (n) => {
     let answer = 1;
     if (n == 0 || n == 1) {
         return answer;

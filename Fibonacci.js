@@ -1,4 +1,4 @@
-function Fibonacci(number) {
+const Fibonacci = (number) => {
     var a = 1, b = 0, temp;
     while (number >= 0) {
         temp = a;

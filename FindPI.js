@@ -1,4 +1,4 @@
-var getPI = function (n) {
+const getPI = (n) => {
     if (n === undefined || n > 20) {
         n = 20;
     }

@@ -1,4 +1,4 @@
-function kiem_tra_snt(n) {
+const kiem_tra_snt = (n) => {
     var flag = true;
     if (n < 2) {
         flag = false;
